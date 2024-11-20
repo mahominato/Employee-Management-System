@@ -39,17 +39,40 @@ A simple Employee Management System developed using JavaFX. This application all
 3. Click the "Add Employee" button to add the employee to the system.
 4. View the employee data displayed in the table.
 
+## Sample Inputs for Each Type of Employee
+Full-time Employee
+Name: John Doe
+Employee Type: Full-time
+Salary: 50000 (Annual Salary)
+
+Part-time Employee
+Name: Jane Smith
+Employee Type: Part-time
+Hours Worked: 20
+Hourly Rate: 15
+
+Contractor Employee
+Name: Oleg Mongol
+Employee Type: Contractor
+Max Hours: 100
+Contractor Rate: 25
+
+
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/e323d2b2-e307-477b-a0ec-2278a21e887b)
+![image](https://github.com/user-attachments/assets/540f7292-914c-4cd5-9d55-eb06f29d3d5b)
+![image](https://github.com/user-attachments/assets/54155cc3-bf14-4886-9926-627d967474fe)
+![image](https://github.com/user-attachments/assets/b5a81e31-ed75-4bf3-a8f9-0e4ad9741bb8)
+![image](https://github.com/user-attachments/assets/2165b760-c03e-4b87-b95e-37c72e330c1a)
 
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
 
 ## Contact
 
 If you have any questions, feel free to contact me at:
-- Email: your-email@example.com
-- GitHub: https://github.com/yourusername
+- Email: cholpon.khalibaeva@alatoo.edu.kg
+- GitHub: https://github.com/mahominato
