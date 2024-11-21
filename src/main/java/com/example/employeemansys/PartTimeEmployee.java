@@ -12,11 +12,11 @@ public class PartTimeEmployee extends Employee {
 
     @Override
     public double calculateSalary() {
-        return hoursWorked * hourlyRate; // Зарплата за отработанные часы
+        return hoursWorked * hourlyRate;
     }
 
     @Override
     public String getType() {
-        return "Part-time"; // Тип сотрудника
+        return "Part-time";
     }
 }

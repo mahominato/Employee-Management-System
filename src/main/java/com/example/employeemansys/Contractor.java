@@ -12,11 +12,11 @@ public class Contractor extends Employee {
 
     @Override
     public double calculateSalary() {
-        return maxHours * contractorRate; // Оплата за макс. часы
+        return maxHours * contractorRate;
     }
 
     @Override
     public String getType() {
-        return "Contractor"; // Тип сотрудника
+        return "Contractor";
     }
 }
