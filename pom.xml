@@ -4,10 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>org.example</groupId>
     <artifactId>EmployeeManSys</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>EmployeeManSys</name>
+=======
+    <groupId>com.example</groupId>
+    <artifactId>EmployeeMS</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>EmployeeMS</name>
+>>>>>>> a1fcf0e973f0f6d405b459c7a92e8ea00097417f
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -57,10 +64,17 @@
                 <version>0.0.8</version>
                 <executions>
                     <execution>
+<<<<<<< HEAD
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>org.example.employeemansys/org.example.employeemansys.HelloApplication
                             </mainClass>
+=======
+                        <!-- Default configuration for running with: mvn clean javafx:run -->
+                        <id>default-cli</id>
+                        <configuration>
+                            <mainClass>com.example.employeems/com.example.employeems.HelloApplication</mainClass>
+>>>>>>> a1fcf0e973f0f6d405b459c7a92e8ea00097417f
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
