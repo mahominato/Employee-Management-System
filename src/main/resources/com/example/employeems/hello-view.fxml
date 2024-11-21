@@ -15,19 +15,19 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
-    <!-- Поле ввода имени сотрудника -->
+
     <HBox spacing="10">
         <Label text="Name:" />
         <TextField fx:id="nameField" promptText="Enter employee name" />
     </HBox>
 
-    <!-- ComboBox для выбора типа сотрудника -->
+
     <HBox spacing="10">
         <Label text="Type:" />
         <ComboBox fx:id="typeComboBox" promptText="Select employee type" />
     </HBox>
 
-    <!-- Поля ввода для часов работы и ставки оплаты -->
+
     <HBox spacing="10">
         <Label text="Hours Worked:" />
         <TextField fx:id="hoursField" promptText="Enter hours worked" />
@@ -38,10 +38,10 @@
         <TextField fx:id="rateField" promptText="Enter salary or hourly rate" />
     </HBox>
 
-    <!-- Кнопка добавления сотрудника -->
+
     <Button text="Add Employee" onAction="#addEmployee" />
 
-    <!-- Таблица сотрудников -->
+
     <TableView fx:id="employeeTable">
         <columns>
             <TableColumn fx:id="nameColumn" text="Name" />
