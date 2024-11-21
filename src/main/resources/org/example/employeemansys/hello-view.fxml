@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23" fx:controller="com.example.employeemansys.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <HBox spacing="10">
+        <Label text="Name:" />
+        <TextField fx:id="nameField" promptText="Enter employee name" />
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Type:" />
+        <ComboBox fx:id="typeComboBox" promptText="Select employee type" />
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Hours Worked:" />
+        <TextField fx:id="hoursField" promptText="Enter hours worked" />
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Rate:" />
+        <TextField fx:id="rateField" promptText="Enter salary or hourly rate" />
+    </HBox>
+
+    <Button text="Add Employee" onAction="#addEmployee"/>
+
+    <!-- Таблица сотрудников -->
+    <TableView fx:id="employeeTable">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name" />
+            <TableColumn fx:id="typeColumn" text="Type" />
+            <TableColumn fx:id="salaryColumn" text="Salary" />
+        </columns>
+    </TableView>
+</VBox>
